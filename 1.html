@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <!--<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Toni</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class="fa fa-home nav_icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class="fa fa-user nav_icon"></i>About
+                            </a>
+                        </li>
+
+                        <a href="#skills" class="nav_link">
+                            <i class="fa fa-file nav_icon"></i>Skills
+                        </a>
+
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link">
+                                <i class="fa fa-briefcase nav_icon"></i>Service
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#portfolio" class="nav_link">
+                                <i class="fa fa-image nav_icon"></i>Portfolio
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class="fa fa-paper-plane nav_icon"></i>Contactme
+                            </a> 
+                        </li>
+                    </ul>
+                    <i class="fa fa-close nav_close" id="nav-close"></i>
+                </div>
+
+                <div class="nav_btns">
+                    <!--Theme Change button-->
+                    <i class="fa fa-moon-o change-theme" id="theme-button"></i>
+
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="fa fa-th-large"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="#" target="_blank" class="home_social-icon">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" target="_blank" class="home_social-icon">
+                                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" target="_blank" class="home_social-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    
+                                    <image class="home_blob-img" x='12' y='18' xlink:href="assets/img/profile.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home_data">
+                            <h1 class="home_title">Hi, I'm Toni</h1>
+                            <h3 class="home_subtitle">Web Designer</h3>
+                            <p class="home_description">Lorem Ipsum is simply dummy text of the 
+                                printing and typesetting industry. </p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me<i class="fa fa-paper-plane button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button button--flex">
+                            <!--<i class=" home_scroll-mouse" aria-hidden="true"></i>-->
+                            
+                            <span class="home_scroll-name">Scroll Down</span>
+                            <i class="fa fa-angle-down home_scroll-arrow" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">About Me</h2>
+                <span class="section_subtitle">My Introduction</span>
+
+                <div class="about_container container grid">
+                    <img src="assets/img/about1.jpg" alt="" class="about_img">
+                    
+                    <div class="about_data">
+                        <p class="about_description">
+                            It is a long established fact that a reader will 
+                            be distracted by the readable content of a page when 
+                            looking at its layout.
+                        </p>
+
+                        <div class="about_info">
+                            <div>
+                                <span class="about_info-title">08+</span>
+                                <span class="about_info-name">Years <br> experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about_info-title">20+</span>
+                                <span class="about_info-name">Completed <br> projects</span>
+                            </div>
+
+                            <div>
+                                <span class="about_info-title">05+</span>
+                                <span class="about_info-name">Companies <br> worked</span>
+                            </div>
+                        </div>
+
+                        <div class="about_button">
+                            <a download="" href="#" class="button button--flex">
+                                Download CV<i class="fa fa-download button_icon" aria-hidden="true"></i>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <span class="section_subtitle">My Technical Level</span>
+
+                <div class="skills_container container grid">
+                    <div>
+                        <!--==================== Skills 1 =====================-->
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class="fa fa-code skills_icon" aria-hidden="true"></i>
+                                
+                                <div>
+                                    <h1 class="skills_title">Frontend Developer</h1>
+                                    <span class="skills_subtitle">More than 4 years</span>
+                                </div>
+                            
+                                <i class="fa fa-angle-down skills_arrow" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">HTML</h3>
+                                        <span class="skills_number">90%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_html"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">CSS</h3>
+                                        <span class="skills_number">80%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_css"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">JavaScript</h3>
+                                        <span class="skills_number">60%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_js"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">React</h3>
+                                        <span class="skills_number">85%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_react"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== Skills 2 =====================-->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="fa fa-server skills_icon" aria-hidden="true"></i>
+                                
+                                <div>
+                                    <h1 class="skills_title">Backend Developer</h1>
+                                    <span class="skills_subtitle">More than 2 years</span>
+                                </div>
+                            
+                                <i class="fa fa-angle-down skills_arrow" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">PHP</h3>
+                                        <span class="skills_number">80%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_php"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">Node JS</h3>
+                                        <span class="skills_number">70%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_node"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">Firebase</h3>
+                                        <span class="skills_number">90%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_firebase"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">Python</h3>
+                                        <span class="skills_number">55%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_python"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <!--==================== Skills 3 =====================-->
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="fa fa-book skills_icon" aria-hidden="true"></i>
+                                
+                                <div>
+                                    <h1 class="skills_title">Designer</h1>
+                                    <span class="skills_subtitle">More than 5 years</span>
+                                </div>
+                            
+                                <i class="fa fa-angle-down skills_arrow" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">Figma</h3>
+                                        <span class="skills_number">90%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_figma"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">Sketch</h3>
+                                        <span class="skills_number">85%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_sketch"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">Photoshop</h3>
+                                        <span class="skills_number">70%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <div class="skills_percentage skills_photoshop"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <div class="h2 section_title">Qualification</div>
+                <span class="section_subtitle">My personal journey</span>  
+
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button--flex qualification_active" data-target='#education'>
+                            <i class="fa fa-graduation-cap qualification_icon" aria-hidden="true"></i>
+                            Education
+                        </div>
+                        
+                        <div class="qualification_button button--flex" data-target='#work'>
+                            <i class="fa fa-briefcase qualification_icon" aria-hidden="true"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification_sections">
+                        <!--==================== QUALIFICATION content 1 ====================-->
+                        <div class="qualification_content qualification_active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification-title">Civil Engineer</h3>
+                                    <span class="qualification_subtitle">Techno India University, West Bengal</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        2013 - 2017
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+
+
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification-title">Web Design</h3>
+                                    <span class="qualification_subtitle">Freelance</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        2017 - 2021
+                                    </div>
+                                </div>
+
+
+                                
+                            </div>
+
+                             <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification-title">Web Developer</h3>
+                                    <span class="qualification_subtitle">Freelance</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        2013 - 2017
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+
+
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 4 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <!--<span class="qualification_line"></span>-->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification-title">AutoCAD Designer</h3>
+                                    <span class="qualification_subtitle">Jadavpur University</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        2016 - 2016
+                                    </div>
+                                </div>
+
+
+                                
+                            </div>
+
+
+                        </div>
+
+
+                        <!--==================== QUALIFICATION content 2 ====================-->
+                        <div class="qualification_content " data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification-title">Software Engineer</h3>
+                                    <span class="qualification_subtitle">IBM, Kolkata</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        2017 - 2018
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+
+
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification-title">Auto LISP</h3>
+                                    <span class="qualification_subtitle">Jadavpur University</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        2016 - 2016
+                                    </div>
+                                </div>
+
+
+                                
+                            </div>
+
+                             <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification-title">Frontend Developer</h3>
+                                    <span class="qualification_subtitle">Freelance</span>
+                                    <div class="qualification_calendar">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        2017 - 2021
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <!--<span class="qualification_line"></span>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section_title">Services</h2>
+                <span class="section_subtitle">What I offer</span>
+
+                <div class="services_container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="fa fa-th services_icon" aria-hidden="true"></i>
+                            <h3 class="services_title">Website <br> Designer </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More 
+                            <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Website <br> Designer</h4>
+                                <i class="fa fa-times services_modal-close" aria-hidden="true"></i>
+                            
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">I develop the website interface.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Web page development.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Database management.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Brand Design.</p>
+                                    </li>
+                                </ul>
+                            
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="fa fa-arrows services_icon" aria-hidden="true"></i>
+                            <h3 class="services_title">Frontend <br> Developer </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More 
+                            <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Frontend <br> Developer </h4>
+                                <i class="fa fa-times services_modal-close" aria-hidden="true"></i>
+                            
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">I develop the website interface.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Web page development.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Database management.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Brand Design.</p>
+                                    </li>
+                                </ul>
+                            
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--==================== SERVICES 3 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="fa fa-pencil-square-o services_icon" aria-hidden="true"></i>
+                            <h3 class="services_title">Branding <br> Designer </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More 
+                            <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Branding <br> Designer</h4>
+                                <i class="fa fa-times services_modal-close" aria-hidden="true"></i>
+                            
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">I develop the website interface.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Web page development.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Database management.</p>
+                                    </li>
+
+                                    <li class="services_modal-service">
+                                        <i class="fa fa-check-circle-o services_modal-icon" aria-hidden="true"></i>
+                                        <p class="">Brand Design.</p>
+                                    </li>
+                                </ul>
+                            
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section_title">PortFolio</h2>
+                <span class="section_subtitle">Most recent work</span>
+
+                <div class="portfolio_container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Modern Website</h3>
+                                <p class="portfolio_description">
+                                    Website adaptable to all devices, with ui components and animated interactions.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Brand Design</h3>
+                                <p class="portfolio_description">
+                                    Website adaptable to all devices, with ui components and animated interactions.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Online Store</h3>
+                                <p class="portfolio_description">
+                                    Website adaptable to all devices, with ui components and animated interactions.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="fa fa-arrow-right button_icon" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                   <!-- ====================Add arrows ====================--> 
+                    <div class="swiper-button-next">
+                        <i class="fa fa-angle-right swipper-portfolio-icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="fa fa-angle-left swipper-portfolio-icon" aria-hidden="true"></i>
+                    </div>
+                    
+                    <!-- ====================Add Pagination ====================-->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project_bg">
+                    <div class="project_container container grid">
+                        <div class="project_data">
+                            <h2 class="project_title">
+                                You have a new project
+                            </h2>
+                            <p class="project_description">
+                                Contact me now and get an affordable 
+                                discount on your new project.
+                            </p>
+                            <a href="#contact" class="button botton--flex button--white">
+                                Contact Me
+                                <i class="fa fa-paper-plane project_icon button_icon"></i>
+                            </a>
+                        </div>
+
+                        <img src="assets/img/project.png" alt="" class="project_img">
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                <h2 class="section_title">
+                    Testimonial
+                </h2>
+                <span class="section_subtitle">
+                    My client saying
+                </span>
+
+                <div class="testimonial_container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIAL 1 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial_img">
+
+                                    <div class="">
+                                        <h3 class="testimonial_name">
+                                            Sara Smith
+                                        </h3>
+                                        <span class="testimonial_client">
+                                            Client
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">
+                                I get a good impression, I carry out my project with all the possible quality
+                                and attention and support 24 hours a day
+                            </p>
+
+                        </div>
+
+                        <!--==================== TESTIMONIAL 2 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="assets/img/testimonial2.jpg" alt="" class="testimonial_img">
+
+                                    <div class="">
+                                        <h3 class="testimonial_name">
+                                            Matt Robinson
+                                        </h3>
+                                        <span class="testimonial_client">
+                                            Client
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">
+                                I get a good impression, I carry out my project with all the possible quality
+                                and attention and support 24 hours a day
+                            </p>
+
+                        </div>
+ 
+                        <!--==================== TESTIMONIAL 3 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="assets/img/testimonial4.jpg.png" alt="" class="testimonial_img">
+
+                                    <div class="">
+                                        <h3 class="testimonial_name">
+                                            Md.Munzirul Islam
+                                        </h3>
+                                        <span class="testimonial_client">
+                                            Client
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                    <i class="fa fa-star-o testimonial_icon-star"></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">
+                                I get a good impression, I carry out my project with all the possible quality
+                                and attention and support 24 hours a day
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                        <!-- ================ Add pagination =================== -->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">
+                    Contact Me
+                </h2>
+                <span class="section_subtitle">
+                    Get in touch
+                </span>
+
+                <div class="contact_container container grid">
+                    <div class="">
+                        <div class="contact_information">
+                            <i class="fa fa-phone contact_icon"></i>
+
+                            <div class="">
+                                <h3 class="contact_title">
+                                    Call Me
+                                </h3>
+                                <span class="contact_subtitle">
+                                    +91-815-898-5936
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="fa fa-envelope contact_icon"></i>
+
+                            <div class="">
+                                <h3 class="contact_title">
+                                    Email
+                                </h3>
+                                <span class="contact_subtitle">
+                                    tonirulislam@outlook.com
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="fa fa-map-marker contact_icon"></i>
+
+                            <div class="">
+                                <h3 class="contact_title">
+                                    Location
+                                </h3>
+                                <span class="contact_subtitle">
+                                    Bahina SamannayaPally,
+                                    Mallarpur, Birbhum, WB - 731216, India
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact_form grid">
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                                <label for="" class="contact_label">
+                                    Name
+                                </label>
+                                <input type="text" class="contact_input">
+                            </div>
+                            <div class="contact_content">
+                                <label for="" class="contact_label">
+                                    Email
+                                </label>
+                                <input type="email" class="contact_input">
+                            </div>
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">
+                                Project
+                            </label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">
+                                Message
+                            </label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact_input">
+
+                            </textarea>
+                        </div>
+
+                        <div class="">
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="fa fa-paper-plane button_icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div class="">
+                        <h1 class="footer_title">
+                            Toni
+                        </h1>
+                        <span class="footer_subtitle">
+                            Civil Engineer
+                        </span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#services" class="footer_link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer_link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer_link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer_socials">
+                        <a href="#" target="_blank" class="footer_social">
+                            <i class="fa fa-facebook footer_icon"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="footer_social">
+                            <i class="fa fa-instagram footer_icon"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="footer_social">
+                            <i class="fa fa-twitter footer_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer_copy">
+                    &#169; Mindadaptz. All right reserved
+                </p>
+            </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fa fa-arrow-up scrollup_icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
